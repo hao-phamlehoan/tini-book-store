@@ -1,0 +1,53 @@
+
+.header {
+    max-width: 1200px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 80px;
+}
+.search{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search input{
+    background-color: #D9D9D9;
+    font-size: 14px;
+    margin: 20px;
+    width: 520px;
+
+}
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    font-size: 32px;
+    margin-right: 16px;
+}
+.navbar-list{
+    color:#00C78B;
+    flex-direction: row;
+    display: flex;
+    
+}
+.navbar-item{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    margin: 0 20px
+    
+}
+.navbar-item p{
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 16px;
+    margin-top: 4px;
+}
